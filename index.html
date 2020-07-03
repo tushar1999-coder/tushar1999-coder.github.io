@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+        <!-- <script src="https://kit.fontawesome.com/e8dae53a9e.js" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="assets/css/todos.css">
+        <script src="assets/js/lib/jquery-3.5.1.min.js"></script>
+
+        <link rel='manifest' href='assets/js/manifest.json'>
+
+        <script type="module" src="pwabuilder-sw-register.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="container">
+            <h1>to-do list <i class="fa fa-plus" aria-hidden="true"></i> </h1>
+            <input type="text" placeholder="Add New Todo" maxlength="28">
+            <ul>
+                <li> <i class="fa fa-undo undo" aria-hidden="true"></i> <span class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span> <span class="todoText">ToDo item 1</span> <span class=".useless"></span> </li>
+                <li> <i class="fa fa-undo undo" aria-hidden="true"></i> <span class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span> <span class="todoText">ToDo item 2</span> <span class=".useless"></span> </li>
+                <li class="completed"> <i class="fa fa-undo undo" aria-hidden="true"></i> <span class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span> <span class="todoText ">ToDo item 3</span> <span class=".useless"></span> </li>
+            </ul>
+
+        </div>
+
+        <script src="assets/js/todos.js" async defer></script>
+    </body>
+</html>

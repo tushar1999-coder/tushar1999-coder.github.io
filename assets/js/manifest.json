@@ -1,0 +1,17 @@
+{
+    "dir": "ltr",
+    "lang": "de",
+    "name": "",
+    "short_name": "",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://tushar1999-coder.github.io/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://tushar1999-coder.github.io/"
+}
